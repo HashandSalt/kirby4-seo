@@ -1,18 +1,17 @@
-type:           group
+type: group
 fields:
-
-    seotitle:
-      label:    SEO Title
-      type:     text
-      icon:     font
-      width:    1/2
-      required: true
-    seotags:
-      label:    Keywords
-      type:     tags
-      width:    1/2
-    seometa:
-      label:    Meta Description
-      type:     textarea
-      size:     small
-      required: true
+  seotitle:
+    label: SEO Title
+    type: text
+    icon: font
+    width: 1/2
+    required: true
+  seotags:
+    label: Keywords
+    type: tags
+    width: 1/2
+  seometa:
+    label: Meta Description
+    type: textarea
+    size: small
+    required: true

@@ -1,4 +1,4 @@
-# Kirby 3 SEO Plugin
+# Kirby 4 SEO Plugin
 
 A small plugin for generating meta data using shared controllers and field data. Also creates Facebook Opengraph and Twitter social sharing information.
 
@@ -11,15 +11,14 @@ To use this plugin, place all the files in `site/plugins/kirby3-seo`.
 ### Composer
 
 ```
-composer require hashandsalt/kirby3-seo
+composer require hashandsalt/kirby4-seo
 ```
 ****
 
 ## Commerical Usage
 
 This plugin is free but if you use it in a commercial project please consider to
-- [make a donation 🍻](https://paypal.me/hashandsalt?locale.x=en_GB) or
-- [buy a Kirby license using this affiliate link](https://a.paddle.com/v2/click/1129/36141?link=1170)
+- [make a donation 🍻](https://paypal.me/hashandsalt?locale.x=en_GB)
 
 ****
 

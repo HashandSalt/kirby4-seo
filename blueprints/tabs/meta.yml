@@ -1,29 +1,28 @@
-label:                  SEO
-icon:                   search
+label: SEO
+icon: search
 columns:
   # SEO Meta
   left:
-    width:              2/3
+    width: 2/3
     sections:
-
       seocontent:
-        type:           fields
+        type: fields
         fields:
-          extends:      fields/seo/meta
+          extends: fields/seo/meta
 
   # Share Image
   right:
-    width:              1/3
+    width: 1/3
     sections:
       seomedia:
-        type:           fields
+        type: fields
         fields:
           shareimage:
-            label:      Share Image
-            type:       files
+            label: Share Image
+            type: files
             uploads:
               template: shot
-            max:        1
-            info:       "{{ file.dimensions }}"
+            max: 1
+            info: "{{ file.dimensions }}"
             image:
-              ratio:    2/1
+              ratio: 2/1
