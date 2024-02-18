@@ -1,6 +1,6 @@
 # Kirby 4 SEO Plugin
 
-A small plugin for generating meta data using shared controllers and field data. Also creates Facebook Opengraph and Twitter social sharing information.
+A small plugin for generating metadata using shared controllers and field data. Also creates Facebook Opengraph and Twitter social sharing information.
 
 ## Installation
 
@@ -24,8 +24,7 @@ This plugin is free but if you use it in a commercial project please consider to
 
 ## Usage
 
-After installing the plugin, setup controllers to bring in the shared SEO controller into each of your template
-controllers.
+After installing the plugin, set up the controllers to bring the shared SEO controller into each of your template controllers.
 
 The bare minimum controller looks like this:
 
@@ -63,7 +62,7 @@ return function ($page, $kirby, $site) {
 
 ```
 
-Additionally, you need to populate the pages with information that is needed for the meta tags to be filled out correctly. The plugin contains blueprints for this and are meant to be used as tabs in your pages:
+Additionally, you need to populate the pages with information that is needed for the meta tags to be filled out correctly. The plugin contains blueprints for this and is meant to be used as tabs on your pages:
 
 ```
 title:     Default
@@ -75,7 +74,7 @@ tabs:
 
 ```
 
-In the `site.yml` also setup the contact tab which will capture social media account information.
+In the `site.yml` also set up the contact tab which will capture social media account information.
 
 ```
 title:     Site
